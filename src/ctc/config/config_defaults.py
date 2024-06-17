@@ -139,6 +139,7 @@ def get_default_network_names_by_chain_id() -> typing.Mapping[int, str]:
         204: 'opbnb',
         250: 'fantom',
         252: 'fraxtal',
+        238: 'blast',
         300: 'zksync_era_sepolia',
         324: 'zksync_era',
         420: 'optimism_goerli',
@@ -152,6 +153,7 @@ def get_default_network_names_by_chain_id() -> typing.Mapping[int, str]:
         5000: 'mantle',
         8217: 'klaytn',
         8453: 'base',
+        34443: 'mode',
         42161: 'arbitrum',
         42220: 'celo',
         43114: 'avalanche',
@@ -217,7 +219,9 @@ def get_default_block_explorers() -> typing.Mapping[str, str]:
         'mantle': 'explorer.mantle.xyz',
         'zora': 'explorer.zora.energy',
         'opbnb': 'opbnbscan.com',
-        'scroll-mainnet': 'scrollscan.com'
+        'scroll-mainnet': 'scrollscan.com',
+        'mode': 'modescan.io',
+        'blast': 'blastexplorer.io',
     }
 
 
