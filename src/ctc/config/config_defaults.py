@@ -160,6 +160,7 @@ def get_default_network_names_by_chain_id() -> typing.Mapping[int, str]:
         80001: 'polygon_mumbai',
         84531: 'base_goerli',
         84532: "base_sepolia",
+        534352: "scroll-mainnet",
         421611: 'arbitrum_rinkeby',
         7777777: 'zora',
         1666600000: 'harmony',
@@ -215,7 +216,8 @@ def get_default_block_explorers() -> typing.Mapping[str, str]:
         'celo': 'explorer.celo.org',
         'mantle': 'explorer.mantle.xyz',
         'zora': 'explorer.zora.energy',
-        'opbnb': 'opbnbscan.com'
+        'opbnb': 'opbnbscan.com',
+        'scroll-mainnet': 'scrollscan.com'
     }
 
 
