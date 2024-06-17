@@ -162,6 +162,7 @@ def get_default_network_names_by_chain_id() -> typing.Mapping[int, str]:
         81457: 'blast',
         84531: 'base_goerli',
         84532: "base_sepolia",
+        167000: 'taiko-mainnet',
         534352: "scroll-mainnet",
         421611: 'arbitrum_rinkeby',
         7777777: 'zora',
@@ -222,6 +223,7 @@ def get_default_block_explorers() -> typing.Mapping[str, str]:
         'scroll-mainnet': 'scrollscan.com',
         'mode': 'modescan.io',
         'blast': 'blastexplorer.io',
+        'taiko-mainnet': 'taikoscan.io',
     }
 
 
