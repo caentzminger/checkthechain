@@ -44,6 +44,7 @@ def get_api_subdomain(network: spec.NetworkReference) -> str:
         'kovan-optimistic',
         'bnb_testnet',
         'base_sepolia',
+        'fraxtal_holesky',
     ]
 
     block_explorer = get_hostname(network)

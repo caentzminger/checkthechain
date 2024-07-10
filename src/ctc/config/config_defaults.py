@@ -194,7 +194,7 @@ def get_default_block_explorers() -> typing.Mapping[str, str]:
         'polygon': 'polygonscan.com',
         'fantom': 'ftmscan.com',
         'fraxtal': 'fraxscan.com',
-        'fraxtal_testnet': 'holesky.fraxtal.com',
+        'fraxtal_testnet': 'holesky.fraxscan.com',
         'optimism_goerli': 'blockscout.com/optimism/goerli',
         'metis': 'andromeda-explorer.metis.io',
         'moonbeam': 'moonbeam.moonscan.io',
